@@ -1,0 +1,158 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+input,select,form,img,button{
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    outline:0;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    height:0;
+    clear:both;
+}
+.clearfix{
+    zoom:1;
+}
+//textarea{
+//    width:95%;
+//}
+
+a{
+    display:block;
+    color:#000;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+ol,
+li {
+    list-style: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+img {
+    border: none;
+}
+
+input,
+img {
+    vertical-align: middle;
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: arial;
+}
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+.w{
+    width:960px;
+    margin:0 auto;
+}
+.red{
+    color:red;
+}
+header{
+    background-color:#ff841d;
+    padding: 5px 10px;
+    a{
+        line-height: 40px;
+        img{
+            width:186px;
+            height: 25px;
+        }
+        img.app{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+.search{
+    background-color: #fff;
+    padding:10px;
+    form{
+        padding-right:50px;
+        position: relative;
+        input[type="search"]{
+            width: 100%;
+            //height:20px;
+            border:none;
+            border-radius:15px;
+            background-color: #e5e5e5;
+            padding-left:10px;
+
+        }
+        input[type='submit']{
+            //width:30px;
+            //height:20px;
+            color:#fff;
+            padding: 0 5px;
+            border-radius:15px;
+            background-color: #ff841d;
+            border:none;
+            position:absolute;
+            top:0;
+            right:5px;
+        }
+    }
+}
+footer{
+    margin-top:5px;
+    text-align: center;
+    .row{
+        font-size:14px;
+        border:1px solid gray;
+        a+a{
+            border-left:1px solid gray;
+        }
+        a{
+            padding:5px 0;
+            img{
+                width: 14px;
+                height:14px;
+            }
+        }
+    }
+    .app-down{
+        font-size: 12px;
+        a{
+            display:inline-block;
+        }
+    }
+    .site{
+        font-size: 12px;
+    }
+}
+
+.active{
+    border-bottom: 3px solid red;
+}
